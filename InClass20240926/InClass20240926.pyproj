@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Group3\Group3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Group3\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="mainPackage\main.py" />
     <Compile Include="mainPackage\__init__.py">
       <SubType>Code</SubType>
@@ -43,6 +49,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Group3\" />
     <Folder Include="mainPackage\" />
     <Folder Include="nicholdwPackage\" />
     <Folder Include="team8Package\" />
