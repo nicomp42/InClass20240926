@@ -16,4 +16,3 @@ if __name__ == "__main__":
     for item in data:
         print(item)
     print("*****************")
-    
