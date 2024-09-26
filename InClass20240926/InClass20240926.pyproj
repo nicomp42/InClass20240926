@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>dcd09968-30fd-4b32-884e-48f7f6ae3fa1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>mainPackage\main.py</StartupFile>
+    <StartupFile>team2Package\team2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,10 +31,17 @@
     <Compile Include="nicholdwPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="team2Package\team2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team2Package\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="mainPackage\" />
     <Folder Include="nicholdwPackage\" />
+    <Folder Include="team2Package\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
