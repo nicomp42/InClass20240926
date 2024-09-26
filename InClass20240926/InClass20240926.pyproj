@@ -31,10 +31,17 @@
     <Compile Include="nicholdwPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="team1\team1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team1\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="mainPackage\" />
     <Folder Include="nicholdwPackage\" />
+    <Folder Include="team1\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
