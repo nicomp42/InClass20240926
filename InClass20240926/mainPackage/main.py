@@ -1,6 +1,5 @@
 #main.py
 from nicholdwPackage.nicholdw import *
-from team07Package.team07 import team07 
 # Do not edit this module at all.
 # Create some new artifacts in the project...
 # Name your package {team}Package
