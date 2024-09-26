@@ -35,6 +35,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="team8Package\__init__.py">
+    <Compile Include="team13Package\team13.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team13Package\__init__.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -42,6 +46,7 @@
     <Folder Include="mainPackage\" />
     <Folder Include="nicholdwPackage\" />
     <Folder Include="team8Package\" />
+    <Folder Include="team13Package\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
