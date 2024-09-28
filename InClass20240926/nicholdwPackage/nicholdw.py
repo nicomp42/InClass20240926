@@ -1,5 +1,6 @@
 
 # nicholdw.py
+from team07Package.team07 import team07
 
 def nicholdw():
     """
@@ -7,4 +8,5 @@ def nicholdw():
     @return dict: A list of dictionaries
     """
     myData = [{"Some Key":"Some value"}]
-    return myData
+    myInformation = team07()
+    return myData + myInformation
