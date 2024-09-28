@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>dcd09968-30fd-4b32-884e-48f7f6ae3fa1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Team5Package\Team5.py</StartupFile>
+    <StartupFile>mainPackage\main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,131 +21,59 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Group14Package\Group14.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Group3\Group3.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Group3\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="mainPackage\main.py" />
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="mainPackage\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team07Package\team07.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="nicholdwPackage\nicholdw.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="nicholdwPackage\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team10Package\team10.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team10Package\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team2Package\team2.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team2Package\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team07Package\team07.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Team5Package\Team5.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Team5Package\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Team19\Team19.py" />
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Team19\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Team20package1\Team20.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Team20package1\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team12Package\team12.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team12Package\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Group14Package\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team15Package\team15.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team15Package\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team04Package\team04.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team04Package\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team1\team1.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team1\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team17Package\team17.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team17Package\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team07Package\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team8Package\Team8.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team8Package\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team13Package\team13.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="team13Package\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
+    <Folder Include="Group14Package\" />
     <Folder Include="Group3\" />
     <Folder Include="mainPackage\" />
     <Folder Include="nicholdwPackage\" />
-    <Folder Include="team10Package\" />
-    <Folder Include="team2Package\" />
-    <Folder Include="team07Package\" />
-    <Folder Include="Team5Package\" />
-    <Folder Include="Team19\" />
-    <Folder Include="Team20package1\" />
-    <Folder Include="team12Package\" />
-    <Folder Include="Group14Package\" />
-    <Folder Include="team15Package\" />
     <Folder Include="team04Package\" />
-    <Folder Include="team1\" />
-    <Folder Include="team17Package\" />
     <Folder Include="team07Package\" />
-    <Folder Include="team8Package\" />
+    <Folder Include="team10Package\" />
+    <Folder Include="team12Package\" />
     <Folder Include="team13Package\" />
+    <Folder Include="team15Package\" />
+    <Folder Include="team17Package\" />
+    <Folder Include="Team19\" />
+    <Folder Include="team1\" />
+    <Folder Include="Team20package1\" />
+    <Folder Include="team2Package\" />
+    <Folder Include="Team5Package\" />
+    <Folder Include="team8Package\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Group14Package\Group14.py" />
+    <Compile Include="Group14Package\__init__.py" />
+    <Compile Include="Group3\Group3.py" />
+    <Compile Include="Group3\__init__.py" />
+    <Compile Include="mainPackage\main.py" />
+    <Compile Include="mainPackage\__init__.py" />
+    <Compile Include="nicholdwPackage\nicholdw.py" />
+    <Compile Include="nicholdwPackage\__init__.py" />
+    <Compile Include="team04Package\team04.py" />
+    <Compile Include="team04Package\__init__.py" />
+    <Compile Include="team07Package\team07.py" />
+    <Compile Include="team07Package\__init__.py" />
+    <Compile Include="team10Package\team10.py" />
+    <Compile Include="team10Package\__init__.py" />
+    <Compile Include="team12Package\team12.py" />
+    <Compile Include="team12Package\__init__.py" />
+    <Compile Include="team13Package\team13.py" />
+    <Compile Include="team13Package\__init__.py" />
+    <Compile Include="team15Package\team15.py" />
+    <Compile Include="team15Package\__init__.py" />
+    <Compile Include="team17Package\team17.py" />
+    <Compile Include="team17Package\__init__.py" />
+    <Compile Include="Team19\Team19.py" />
+    <Compile Include="Team19\__init__.py" />
+    <Compile Include="team1\team1.py" />
+    <Compile Include="team1\__init__.py" />
+    <Compile Include="Team20package1\Team20.py" />
+    <Compile Include="Team20package1\__init__.py" />
+    <Compile Include="team2Package\team2.py" />
+    <Compile Include="team2Package\__init__.py" />
+    <Compile Include="Team5Package\Team5.py" />
+    <Compile Include="Team5Package\__init__.py" />
+    <Compile Include="team8Package\Team8.py" />
+    <Compile Include="team8Package\__init__.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
