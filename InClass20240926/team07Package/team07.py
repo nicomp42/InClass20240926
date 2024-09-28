@@ -1,4 +1,4 @@
-#team07.py
+# team07.py
 
 def team07():
     myInformation = [
@@ -6,4 +6,5 @@ def team07():
         {"Name": "Quynh", "Age": 23, "City": "Cincinnati"},
         {"Name": "Anh", "Age": 35, "City": "Chicago"}
     ]
+
     return myInformation
