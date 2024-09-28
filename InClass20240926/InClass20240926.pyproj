@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>dcd09968-30fd-4b32-884e-48f7f6ae3fa1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>mainPackage\main.py</StartupFile>
+    <StartupFile>Team5Package\Team5.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -43,6 +43,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="nicholdwPackage\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Team5Package\Team5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Team5Package\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Team19\Team19.py" />
@@ -110,6 +116,7 @@
     <Folder Include="Group3\" />
     <Folder Include="mainPackage\" />
     <Folder Include="nicholdwPackage\" />
+    <Folder Include="Team5Package\" />
     <Folder Include="Team19\" />
     <Folder Include="Team20package1\" />
     <Folder Include="team12Package\" />
