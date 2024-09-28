@@ -1,6 +1,5 @@
 
 # nicholdw.py
-
 def nicholdw():
     """
     A function that returns a list of dictionaries
@@ -8,3 +7,4 @@ def nicholdw():
     """
     myData = [{"Some Key":"Some value"}]
     return myData
+
