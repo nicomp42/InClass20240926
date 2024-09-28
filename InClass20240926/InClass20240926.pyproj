@@ -42,6 +42,12 @@
     <Compile Include="nicholdwPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="team17Package\team17.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team17Package\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="team07Package\__init__.py">
       <SubType>Code</SubType>
     </Compile>
@@ -62,6 +68,7 @@
     <Folder Include="Group3\" />
     <Folder Include="mainPackage\" />
     <Folder Include="nicholdwPackage\" />
+    <Folder Include="team17Package\" />
     <Folder Include="team07Package\" />
     <Folder Include="team8Package\" />
     <Folder Include="team13Package\" />
