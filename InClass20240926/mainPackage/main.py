@@ -17,9 +17,3 @@ if __name__ == "__main__":
     for item in data:
         print(item)
     print("*****************")
-    
-    print("Group3")
-    data = Group3()
-    for item in data:
-        print(item)
-    print("*****************")
