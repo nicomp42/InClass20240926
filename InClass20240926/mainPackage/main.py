@@ -1,5 +1,6 @@
-#main.py
+#main.py 
 from nicholdwPackage.nicholdw import *
+from Group3.Group3 import *
 # Do not edit this module at all.
 # Create some new artifacts in the project...
 # Name your package {team}Package
@@ -16,12 +17,3 @@ if __name__ == "__main__":
     for item in data:
         print(item)
     print("*****************")
-    
-    print("team07")
-    data = team07()
-    for item in data:
-        print(item)
-    print("*****************")
-    
-
-    
