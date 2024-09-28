@@ -24,8 +24,19 @@
     <Compile Include="Group14Package\Group14.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Group3\Group3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Group3\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="mainPackage\main.py" />
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="mainPackage\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team07Package\team07.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="nicholdwPackage\nicholdw.py">
@@ -37,11 +48,58 @@
     <Compile Include="Group14Package\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="team15Package\team15.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team15Package\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team04Package\team04.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team04Package\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team1\team1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team1\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team17Package\team17.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team17Package\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team07Package\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team8Package\Team8.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team8Package\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team13Package\team13.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team13Package\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Group3\" />
     <Folder Include="mainPackage\" />
     <Folder Include="nicholdwPackage\" />
     <Folder Include="Group14Package\" />
+    <Folder Include="team15Package\" />
+    <Folder Include="team04Package\" />
+    <Folder Include="team1\" />
+    <Folder Include="team17Package\" />
+    <Folder Include="team07Package\" />
+    <Folder Include="team8Package\" />
+    <Folder Include="team13Package\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
